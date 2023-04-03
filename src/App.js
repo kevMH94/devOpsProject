@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import County from './components/County'
-import data from './components/json/Data.json';
+import data from './json/Data.json';
 import styles from './components/styles.css'
 
 function App() {
