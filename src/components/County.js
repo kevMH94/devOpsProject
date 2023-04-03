@@ -1,5 +1,4 @@
 import {useState} from 'react'
-import axios from 'axios'
 import CountyLandmarks from './CountyLandmarks'
 import data from '../json/Data.json';
 import styles from './styles.css'
