@@ -8,7 +8,5 @@ pm2 stop irish-tourism-app
 cd devOpsProject/
 # Install application dependancies
 npm install
-echo $PRIVATE_KEY > privatekey.pem
-echo $SERVER >server.crt
 # Start the application with the process name example_app using pm2
 pm2 start ./bin/www --name irish-tourism-app npm -- start
