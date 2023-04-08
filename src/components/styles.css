@@ -10,6 +10,11 @@ text-align: center;
     
 }
 
+header{
+
+    font-family: "Papyrus";
+}
+
 body{
     
     background-image: url("../background-2.jpg");
