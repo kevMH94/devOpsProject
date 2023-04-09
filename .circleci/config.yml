@@ -9,7 +9,7 @@ workflows:
                     branches:
                         only:
                             - main
-            - request-testing:
+            - request-deployment:
                 type: approval
                 requires:
                     - build                
@@ -19,7 +19,7 @@ workflows:
                         only:
                             - main
                 requires:
-                    - request-testing
+                    - request-deployment
 
 jobs:
     build:
