@@ -9,13 +9,17 @@ workflows:
                     branches:
                         only:
                             - main
+            - request-testing:
+                type: approval
+                requires:
+                    - build                
             - deploy:
                 filters:
                     branches:
                         only:
                             - main
                 requires:
-                    - build
+                    - request-testing
 
 jobs:
     build:
